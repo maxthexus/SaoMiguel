@@ -11,6 +11,13 @@
 <body>
     <header class="cabecalho">
         <img class="img-cabecalho" src="imagens/logo.png" alt="Logo">
+
+        <button onclick="animar()" id="btn-menu">
+            <span class="linha"></span>
+            <span class="linha"></span>
+            <span class="linha"></span>
+        </button>
+
         <nav  class="menu-cabecalho" >
             <a id="ativo" class="menu-cabecalho-item" href="index.html">Institucional</a>
             <a class="menu-cabecalho-item" href="contato.html">Contato</a>
@@ -19,6 +26,15 @@
             <a class="menu-cabecalho-item" href="https://www.uberlandia.mg.gov.br/horario-de-operacao/">Horário de Operação</a>
         </nav>
     </header>
+    <div id="menu-mobile" class="ativar">    
+        <nav  class="menu-cabecalho-mobile" >
+            <a id="ativo" class="menu-cabecalho-item" href="index.html">Institucional</a>
+            <a class="menu-cabecalho-item" href="contato.html">Contato</a>
+            <a class="menu-cabecalho-item" href="vagas.html">Trabalhe Conosco</a>
+            <a class="menu-cabecalho-item" href="https://www.ubertrans.com.br/">Cartão Transporte</a>
+            <a class="menu-cabecalho-item" href="https://www.uberlandia.mg.gov.br/horario-de-operacao/">Horário de Operação</a>
+        </nav>
+    </div>
 
     
 
@@ -62,6 +78,10 @@
         <h4 class="h4-cont-secundario"> Endreço: Av. José Andraus Gassani, 4740</h4>
         <h4 class="h4-cont-secundario"> Telefone: (34) 3215-0511</h4>
         <h4 class="h4-cont-secundario"> Copyright © 2024 Todos Direitos Reservados por Transporte Urbano São Miguel</h4>
-    </footer>       
+    </footer>   
+    
+    <script src="js/script.js">
+
+    </script>
 </body>
 </html>
