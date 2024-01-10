@@ -58,7 +58,7 @@ body{
 }
 
 #ativo {
-    color: var(--cor03);
+    color: var(--cor01);
   }
 
 .menu-cabecalho-item:hover{
@@ -162,7 +162,7 @@ cursor: pointer;
     font-family: var(--fonte-estilizada);
     font-weight: 400;
     font-size: 24px;
-    color: var(--cor03);
+    color: var(--cor01);
 
 }
 
