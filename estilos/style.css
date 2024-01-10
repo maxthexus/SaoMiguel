@@ -92,11 +92,11 @@ cursor: pointer;
 
 #btn-menu.ativar .linha:nth-child(1){
     transform: translateY(8px) rotate(-45deg);
-    background-color: var(--cor03);
+    background-color: var(--cor01);
 }
 #btn-menu.ativar .linha:nth-child(3){
     transform: translateY(-8px) rotate(45deg);
-    background-color: var(--cor03);
+    background-color: var(--cor01);
 }
 #btn-menu.ativar .linha:nth-child(2){
     width: 0;
@@ -309,7 +309,7 @@ cursor: pointer;
     }
     
     #ativo {
-        color: var(--cor03);
+        color: var(--cor01);
       }
     
     .menu-cabecalho-item:hover{
